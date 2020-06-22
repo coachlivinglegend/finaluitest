@@ -1,0 +1,984 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Montserrat, sans-serif;
+    color: rgba(37,33,97,0.76);
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+}
+
+.container{
+    max-width: 100rem;
+}
+
+
+nav{
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    background-color: transparent
+
+}
+
+.sectionwrapper1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 73.125rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.sectionwrapper{
+    max-width: 73.125rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 6.25rem;
+    padding-bottom: 6.25rem;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logopicture{
+    display: flex;
+}
+
+.logo img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ul a:link {
+    color: #252161;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+ul a:hover{
+    color: #40c8e9;
+}
+
+
+li{
+    margin-left: 1.5rem;
+    margin-right: .75rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.logo .icon {
+    color: #252161;
+    display: none;
+}
+
+.navlinks hr{
+    display: none;
+}
+
+.hero{
+    background-image: url('virus.jpg');
+    background-size: cover;
+}
+
+.sectionwrapper2{
+}
+
+.button1{
+    border-radius: 0.75rem;
+    background-color: #25b8ff;
+    box-shadow: 0 0.625rem 2rem -0.75rem rgba(32,63,115,0.5);
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: 0.0625rem;
+    padding: 1.25rem 3.125rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    
+}
+
+.button1:hover{
+    transform: scale(1.1);
+}
+
+.button2{
+    border-radius: 0.75rem;
+    background-color: #fff;
+    box-shadow: 0 0.625rem 2rem -0.75rem rgba(32,63,115,0.5);
+    line-height: 100%;
+    font-weight: 500;
+    letter-spacing: 0.0625rem;
+    padding: 1.25rem 3.125rem;
+    border: 0.125rem solid #25b8ff;
+    margin-top: 0.625rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+}
+
+.button2:hover{
+    transform: scale(1.1);
+    background-color: #25b8ff;
+    color: #fff;
+}
+.buttonblue{
+    color: #252161;
+}
+
+.buttonwhite{
+    border: 0;
+    color: white;
+}
+
+.needto{
+    background: white;
+    margin-top: 4.375rem;
+    margin-bottom: 4.375rem;
+    max-width: 33.75rem;
+    padding-top: 1.875rem;
+    padding-right: 2.5rem;
+    padding-bottom: 1.875rem;
+    padding-left: 2.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,55,110,0.2);
+}
+
+.needto h3{
+    margin-bottom: 1.875rem;
+}
+
+
+.findout{
+    background-color: #f0faff;
+    background-image: url('woman.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+
+.findouttext{
+    margin-top: 4.375rem;
+    margin-bottom: 4.375rem;
+    display: inline-block;
+    max-width: 28.125rem;
+}
+
+.findouttext > * {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.outtextwhite{
+    background: white;
+    max-width: 21.875rem;
+    line-height: 0.9375rem;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,55,110,0.2);
+    border-radius: 0.75rem;
+    margin-bottom: 1.25rem;
+    padding-left: 0.625rem;
+}
+
+.solution{
+    background-image: url('https://www.ilarahealth.com/assets/webflow/lines_shape_bg.svg');
+    background-size: cover;
+    
+}
+
+.sectionwrapper4{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.sectionwrapper4 > h3{
+    margin-bottom: 4.6875rem;
+}
+
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.featuresolution {
+    background: #fff;
+    text-align: center;
+    border-radius: 0.1875rem;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,55,110,0.2);
+    padding-top: 3.75rem;
+    padding-bottom: 3.125rem;
+    max-width: 21.875rem;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.featuresolution > * {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+}
+
+.benefits{
+    background-image: url(https://www.ilarahealth.com/assets/webflow/lines_shape_bg.svg);
+    background-color: #f0faff;
+}
+
+.sectionwrapper5{
+
+}
+
+.benefits1 {
+    display: flex;
+    align-items: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.benefits2 {
+    display: flex;
+    align-items: center;
+}
+
+
+.benefitleft{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.75rem;
+    background-image: url('doctors_card_shape_bg.svg'),linear-gradient(315deg, #2b32b2, #1488cc);
+    background-size: cover;
+    justify-content: center;
+    align-items: start;
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    padding-left: 3.125rem;
+    padding-right: 3.125rem;
+    background-repeat: no-repeat, repeat;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,55,110,0.6);
+    width: 40%;
+    flex-shrink: 1;
+}
+.benefitright{
+    width: 60%;
+    flex-shrink: 3;
+}
+.benefitright img{
+    max-width: 100%;
+}
+
+.firstpicture{
+    border-bottom-right-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+
+}
+
+.secondpicture{
+    border-bottom-left-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+}
+
+.benefitswrapper{
+    color: white;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    display: flex;
+}
+.rectangle{
+    min-width: 0.625rem;
+    border-radius: 0.25rem;
+    margin-right: 1.5625rem;
+    background-color: #40c8e9;
+    box-shadow: 0 0 1.25rem 0 rgba(64,200,233,0.44);
+}
+
+
+.benefitleft h3{
+    color: white;
+    margin-bottom: 1.875rem;
+}
+h3{
+    /* color: #252161; */
+    font-size: 1.266em;
+    line-height: 1.75rem;
+    font-weight: 800;
+}
+p{
+    font-size: 0.875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+}
+ .testimonials{
+    background-image: url('https://www.ilarahealth.com/assets/webflow/testimonials_oval_shape_bg.svg'),linear-gradient(315deg, #2b32b2, #1488cc);
+    /* background-size: cover; */
+    background-position: -48vw 50%, 0rem 0rem;
+background-repeat: no-repeat, repeat;
+ }
+
+
+
+.sectionwrapper6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.testimony{
+    flex-shrink: 1;
+    width: 35%;
+}
+.testimony > *{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+.boniface{
+    width: 65%;
+    flex-shrink: 2.5;
+
+}
+
+.boniface img{
+    width: 100%;
+}
+ .customer{
+     background: white;
+     border-radius: 0.625rem;
+     /* max-width: 460px; */
+     padding-left: 1.25rem;
+ }
+
+ 
+.focus{
+    background-image: url(https://www.ilarahealth.com/assets/webflow/lines_shape_bg.svg);
+
+}
+
+.sectionwrapper7{
+
+}
+
+.matterwrap{
+text-align: center;
+margin-bottom: 3.125rem;
+}
+
+.matterwrap > * {
+    line-height: 1.875rem;
+    margin: 0.625rem auto;
+}
+
+ .cardmatters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+
+ .bluecard{
+    background: linear-gradient(315deg, #2b32b2, #1488cc);
+    text-align: center;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,55,110,0.2);
+    padding-top: 3.75rem;
+    padding-bottom: 3.125rem;
+    max-width: 29%;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    min-width: 240px;
+    color: white;
+ }
+
+ .bluecard > * {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    padding-left: 0.625rem;
+    padding-right: 0.625rem;
+ }
+
+ .clinic{
+     background-image: url(https://www.ilarahealth.com/assets/webflow/lines_shape_bg.svg);
+     background-color: #f0faff;
+ }
+
+ .sectionwrapper8{
+    text-align: center;
+ }
+
+ .clinicheader{
+     text-align: center;
+     margin-bottom: 3.125rem;
+     line-height: 1.875rem;
+     margin: 1.875rem auto;
+ }
+
+ iframe{
+     text-align: center;
+ }
+
+ .team{
+    background-image: url("https://www.ilarahealth.com/assets/webflow/Our_team_bg_image2x.png");
+background-size: cover;
+}
+
+.sectionwrapper9{
+    
+}
+
+.ourteam{
+    text-align: center;
+    margin-bottom: 3.125rem;
+    }
+    
+.teamwrap > * {
+        line-height: 1.875rem;
+        margin: 0.625rem auto;
+    }
+
+
+
+.teamrolewrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+ .teampicture{
+    height: 12.5rem;
+    width: 12.5rem;
+    background-position: top;
+    background-size: cover;
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+    z-index: 10;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,55,110,0.6);
+    border-radius: 0.75rem;
+}
+.teampicture1{
+    background-image: url(Emilian_photo2x-min.png),linear-gradient(0deg, rgba(0,0,0,0.3), transparent 75%);
+}
+.teampicture2{
+    background-image: url(max.jpg),linear-gradient(0deg, rgba(0,0,0,0.3), transparent 75%);
+}
+.teampicture3{
+    background-image: url(sameer.jpg),linear-gradient(0deg, rgba(0,0,0,0.3), transparent 75%);
+}
+.teampicture4{
+    background-image: url(Sam-Wilks3x.png),linear-gradient(0deg, rgba(0,0,0,0.3), transparent 75%);
+}
+.teampicture5{
+    background-image: url(cyndi.jpg),linear-gradient(0deg, rgba(0,0,0,0.3), transparent 75%);
+}
+.teampicture6{
+    background-image: url(eshaam.jpg),linear-gradient(0deg, rgba(0,0,0,0.3), transparent 75%);
+}
+.teampicture7{
+    background-image: url(angela.png),linear-gradient(0deg, rgba(0,0,0,0.3), transparent 75%);
+}
+.teamdata{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,55,110,0.2);
+    border-radius: 0.75rem;
+    background: #fff;
+}
+.teamrole{
+    max-width: 28.125rem;
+    margin: 1.25rem 1.25rem;
+    display: grid;
+    grid-template-columns: 8.75rem 3.75rem 1fr;
+    grid-template-rows: 1.875rem 10.625rem 1fr;
+}
+
+.teamdatatext{
+    background: white;
+    width: 60%;
+    align-self: flex-end;
+    margin-right: 2.5rem;
+    line-height: 2.1875rem;
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+}
+
+.teamdatatext > * {
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+
+}
+
+
+.investor{
+    background-image: url("https://www.ilarahealth.com/assets/webflow/contact_secondary_bg.svg"),url("https://www.ilarahealth.com/assets/webflow/Media_lines.svg"),linear-gradient(315deg, #1488cc, #2b32b2);
+background-position: 50% 100%, 50% 25%, 0rem 0rem;
+background-size: auto, auto, auto;
+background-repeat: no-repeat, no-repeat, repeat;
+ }
+
+.sectionwrapper10{
+
+}
+
+.investorheader{
+    text-align: center;
+    line-height: 1.875rem;
+    margin: 1.25rem auto 3.125rem auto;
+}
+
+ .investorwrapper{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+ }
+ .investors{
+     min-width: 180px;
+     background: white;
+     text-align: center;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     border-radius: 0.75rem;
+     margin: 1rem;
+ }
+
+ .investlogo{
+     margin-top: 1.875rem;
+     margin-bottom: 1.25rem;
+ }
+
+ .investors a{
+    display: block;
+ }
+
+ .investors img{
+     width: 50%;
+     height: auto;
+ }
+
+ .advisor{
+    background: white;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 0.75rem;
+    margin: 1rem;
+    min-width: 180px;
+}
+
+.advisors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.9375rem;
+    margin-bottom: 0.9375rem;
+    min-width: 180px;
+}
+
+.wrapadvisor{
+    border-bottom: 0.0625rem solid grey;
+    width: 80%;
+    text-align: center;
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+
+.media{
+    background-image: url("https://www.ilarahealth.com/assets/webflow/Media_lines.svg");
+background-position: 40% -20%;
+background-repeat: no-repeat;
+}
+
+.sectionwrapper11{
+
+}
+
+.mediawrap{
+    text-align: center;
+    margin-bottom: 3.125rem;
+    line-height: 1.875rem;
+    margin: 1.875rem auto;
+}
+
+.healthwrapper{
+    background-position: 40% -20%;
+    background-repeat: no-repeat;
+  }
+  .eachmedia{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+  .mediacard{
+    width: 20.8281rem;
+    flex-basis: 20.8281rem;
+    display: grid;
+    justify-items: center;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,33,97,0.4);
+    border-radius: 0.625rem;
+    position: relative;
+    margin: 1.25rem;
+  }
+  .mediatitle{
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    border-radius: 12.5rem;
+    text-align: center;
+    width: 90%;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,33,97,0.4);
+    position: absolute;
+    top: 24%;
+  }
+  .mediacard img{
+    width: 90%;
+  }
+  .mediapicture{
+    background-image: linear-gradient(0deg, rgba(37,33,97,0.05), rgba(37,33,97,0) 30%);
+    text-align: center;
+    padding: 15% 10%;
+    height: 12.9458rem;
+
+  }
+  .mediastory{
+    text-align: center;
+    line-height: 1.875rem;
+    padding: 15% 10%;
+    display: grid;
+}
+.mediastorywrapper{
+      background-image: url(https://www.ilarahealth.com/assets/webflow/jobs_oval_bg.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.hyper{
+    text-align: center;
+    margin-bottom: 1.875rem;
+  }
+
+
+.openings{
+background-color: #f0faff;
+background-image: url("https://www.ilarahealth.com/assets/webflow/jobs_lines_shape.svg");
+background-position: 50% 60%;
+background-repeat: no-repeat;
+}
+
+.sectionwrapper12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.openingwrapper{
+    text-align: center;
+    line-height: 1.875rem;
+    margin: 1.875rem auto;
+}
+
+.jobwrapper{
+    display: grid;
+    justify-content: center;
+}
+
+.jobs{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 59.375rem;
+    }
+.jobprofiles {
+        background: #fff;
+        text-align: center;
+        border-radius: 0.75rem;
+        box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,55,110,0.2);
+        padding-top: 3.75rem;
+        padding-bottom: 3.125rem;
+        width: 20rem;
+        margin: 1.5625rem 1.5625rem;
+    }
+
+
+.email{
+background-image: url("https://www.ilarahealth.com/assets/webflow/contact_secondary_bg.svg"),linear-gradient(315deg, #2b32b2, #1488cc);
+background-position: 50% 100%, 0rem 0rem;
+background-repeat: no-repeat, repeat;
+}
+
+.sectionwrapper12{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+}
+.emailwrap{
+    width: 60%;
+    text-align: center;
+    color: white;
+}
+
+.emailwrap > * {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer{
+background-color: #f0faff;
+}
+
+.sectionwrapper13{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footleft{
+    width: 54%;
+}
+
+.footright{
+width: 45%;
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.wrapinquiry{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 755px) {
+.sectionwrapper13{
+    flex-direction: column;
+    align-items: center;
+}
+.footleft{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.wrapinquiry{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.wrapinquiry > * {
+    margin: .75rem;
+}
+
+.footright{
+    width: 100%;
+}
+.footfooter{
+    flex-direction: column;
+    text-align: center;
+}
+.footfooter > * {
+    margin: .75rem;
+}
+}
+
+@media screen and (max-width: 1000px) {
+    .navlinks .display {display: none;}
+    .logo a.icon {
+      display: block;
+    }
+    .navlinks.responsive {position: relative;}
+    .navlinks.responsive li {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .logo{
+        width: 100%;
+    }
+    .sectionwrapper1{
+        flex-direction: column;
+    }
+    ul{
+      flex-direction: column;
+      padding-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+      .findout{
+          background-size: 100%;
+      }
+    }
+
+
+
+
+    @media screen and (max-width: 510px) {
+
+    .teamdatatext{
+        margin-right: 0.5rem;
+    }
+    .teampicture{
+        height: 11rem;
+        width: 11rem;
+    }
+}
+
+@media screen and (max-width: 495px) {
+
+.teamrole{
+    max-width: 300px;
+    margin: 1rem 1rem;
+    display: grid;
+    grid-template-columns: 75px 150px 75px;
+    grid-template-rows: 25px 125px auto;
+}
+
+.teampicture{
+    height: 9.375rem;
+    width: 9.375rem;
+    background-position: top;
+    background-size: cover;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    z-index: 10;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,55,110,0.6);
+    border-radius: 0.75rem;
+}
+
+.teamdata{
+    grid-column: 1 / 4;
+    grid-row: 2 / 4;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-end;
+    box-shadow: 0 0.5rem 3.125rem -0.75rem rgba(37,55,110,0.2);
+    border-radius: 0.75rem;
+    background: #fff;
+}
+
+.teamdatatext{
+    background: white;
+    /* width: 60%; */
+    align-self: center;
+    margin-top: 140px;
+    line-height: 2.1875rem;
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    text-align: center;
+}
+}
+
+
+
+@media screen and (max-width: 650px) {
+
+.sectionwrapper6{
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .testimony{
+    width: 95%;
+} 
+.testimony h3{
+    text-align: center;
+}
+
+.boniface{
+    width: 95%;
+}
+
+}
+
+@media screen and (max-width: 950px) {
+
+.benefits1{
+    flex-direction: column;
+}
+
+.benefits2{
+    flex-direction: column-reverse;
+}
+
+.benefitleft{
+    width: 100%;
+}
+.benefitright{
+    width: 90%;
+}
+
+.firstpicture{
+    border-bottom-right-radius: 0.75rem;
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: 0.75rem;
+}
+
+.secondpicture{
+    border-bottom-left-radius: 0.75rem;
+    border-top-left-radius: 0rem;
+    border-bottom-right-radius: 0.75rem;
+}
+}
+
+@media screen and (max-width: 365px) {
+    .mediatitle{
+        top:22%;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .mediatitle{
+        top:20%;
+    }
+}
+
+@media screen and (max-width: 281px) {
+    .mediatitle{
+        top:18.5%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+.benefitswrapper{
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+}
+.benefitleft{
+    padding: 6%;
+}
+}
